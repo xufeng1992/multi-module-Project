@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="sunEdu-app:war exploded">
+    <output-path>$PROJECT_DIR$/sunEdu-app/target/sunEdu-app</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sunEdu-app" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="sunEdu-core-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="sunEdu-core" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="F:\github\multi-module-Project\sunEdu-app\target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="sunEdu-app/web/Web" />
+    </root>
+  </artifact>
+</component>
